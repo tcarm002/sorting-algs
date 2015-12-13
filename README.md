@@ -1,4 +1,4 @@
 # sorting-algs
 
 ### Resources
-http://www.sorting-algorithms.com/insertion-sort
+http://www.sorting-algorithms.com/
