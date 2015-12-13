@@ -15,7 +15,7 @@ public class Quicksort {
      * @param high The last index of the array to be sorted.
      * @return arr: The sorted array.
      */
-    public static int [] quicksort(int[] arr, int low, int high) {
+    public int [] quicksort(int[] arr, int low, int high) {
         int p;
         if (low < high) {
             p = partition(arr, low, high);
@@ -34,7 +34,7 @@ public class Quicksort {
      * @param high The largest index of the array.
      * @return i : The current index location of the pivot.
      */
-    public static int partition(int[] arr, int low, int high) {
+    public int partition(int[] arr, int low, int high) {
         int pivot = arr[high];
         int i = low;
         int temp;
@@ -53,13 +53,6 @@ public class Quicksort {
 
     }
 
-    public static void main(String[] args) {
-        int [] unsorted = {5,1,1,3};
-        int [] sorted = quicksort(unsorted,0,unsorted.length-1);
-        
-        for(int i : sorted)
-            System.out.println(i);
-        
-    }
+ 
 
 }
